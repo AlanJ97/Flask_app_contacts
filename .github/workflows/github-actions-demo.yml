@@ -1,0 +1,8 @@
+name: Github Actions Demo
+on: [push]
+jobs:
+  Explore-Githb-Actions:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "This job is been executed "
+    - run : echo "bye"
